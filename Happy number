@@ -1,0 +1,33 @@
+# Java-programs
+import java.util.*;
+public class Happy{
+    public static void main(String[] args) {
+        System.out.println("enter number;");
+        int num=84;
+        int result=num;
+        Happy obj=new Happy();
+         while(result!=1&& result!=4)
+         {
+             result=obj.dispaly(result);
+         }
+         if(result==1)
+         {
+             System.out.println(num+"is a happy number");
+             else
+             System.out.println(num+"is not a happy number");
+         }
+         int display(int num)
+         {
+             int sum=0;
+             while(num>0)
+             {
+                 int rem=num%10;
+                 sum=sum+(rem*rem);
+                 num=num/10;
+             }
+         return sum;
+         
+         
+        
+    }
+}
