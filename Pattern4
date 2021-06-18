@@ -1,0 +1,16 @@
+# Java-programs
+import java.util.*;
+public class File1{
+   public static void main(String[] args) {
+       int x=1;
+    for(int i=5;i>=5;i--)
+    {
+        for(int j=5;j<=5;j++)
+        {
+    System.out.print(i);
+          }
+    System.out.println();
+        }
+    
+    }
+}
