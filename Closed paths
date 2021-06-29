@@ -1,6 +1,6 @@
 # Java-programs
 import java.util.*;
-public class FizzBuzz{
+public class Closed_path{
  public static void main(String[] args) {
      int number=1288;
      int n=number;
