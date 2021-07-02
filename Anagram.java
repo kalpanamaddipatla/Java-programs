@@ -8,7 +8,7 @@ public class Anagram{
      String str1=sc.nextLine();
      String str=sc.nextLine();
      boolean f=true;
-     if(str.length() !=str.length())
+     if(str1.length() !=str2.length())
      f=false;
      else
      {
