@@ -1,0 +1,13 @@
+# Java-programs
+import java.util.*;
+public class MBA_challange {
+    public static void main(String[] args) {
+     System.out.println("Input1:");
+     int n=24;
+     System.out.println("Input2:");
+     int k=2;
+     int s=(int)Math.pow(n,k);//s=6
+     int rem=s%10;//6%10=6
+     System.out.println(rem);
+    }
+}
